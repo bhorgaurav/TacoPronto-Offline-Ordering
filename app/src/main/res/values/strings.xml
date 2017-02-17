@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TacoPronto</string>
+    <string name="size">Size</string>
+    <string name="tortilla">Tortilla</string>
+    <string name="fillings">Fillings</string>
+    <string name="beverage">Beverage</string>
+    <string name="place_your_order">Place Your Order</string>
+</resources>

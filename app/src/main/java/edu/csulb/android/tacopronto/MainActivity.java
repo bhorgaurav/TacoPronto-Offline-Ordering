@@ -94,7 +94,7 @@ public class MainActivity extends AppCompatActivity {
         SmsManager smsManager = SmsManager.getDefault();
         smsManager.sendTextMessage("5623503109", null, sb.toString(), null, null);
 
-        Snackbar.make(findViewById(android.R.id.content), "Order placed! Your Total: " + totalPrice, Snackbar.LENGTH_LONG)
+        Snackbar.make(findViewById(android.R.id.content), "Order placed! Your Total: $" + totalPrice, Snackbar.LENGTH_LONG)
                 .setActionTextColor(Color.BLUE).show();
     }
 
